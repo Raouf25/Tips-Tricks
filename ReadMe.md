@@ -22,6 +22,14 @@ postgres=# \l
 
 postgres=# \q
 ```
+
+## How for remote Database 
+How can I connect to remote Database  jdbc:postgresql://dgopaabsupa01.int.xyz.com:5432/supplier_review
+	
+ ```shell
+$	psql -h dgopaabsupa01.int.xyz.com -p 5432 -u supplier_review
+ ```
+
  ## To drop a database 
  
  ```shell
@@ -29,11 +37,9 @@ $ dropdb -U supplier_review_db supplier_review_user
 Mot de passe :
 ```
 
-## How to connect to remote Database 
-jdbc:postgresql://dgopaabsupa01.int.xyz.com:5432/supplier_review
-	
- ```shell
-$	psql -h dgopaabsupa01.int.xyz.com -p 5432 -u supplier_review
+
+
+ 
 ## To import data from sql file  (dump)
 ```shell
 $ psql -d supplier_review_db  supplier_review_user < dump_dev_20190710.sql
@@ -194,5 +200,5 @@ C --> D
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5OTM0OTkyNSwyMTEzODQzNTc0XX0=
+eyJoaXN0b3J5IjpbNjc3OTUwODExLDIxMTM4NDM1NzRdfQ==
 -->
