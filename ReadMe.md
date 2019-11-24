@@ -37,12 +37,14 @@ $ dropdb -U supplier_review_db supplier_review_user
 Mot de passe :
 ```
 
-## To export data from sql file  (dump)
+# Dump
+
+## To export data in sql file 
 ```shell
 $ pg_dump supplier_review > /home10/pgmi/postgresql-9.6/dump/supplier_review_PRD_27_06_2019.sql  
 ```
  
-## To import data from sql file  (dump)
+## To import data from sql file
 ```shell
 $ psql -d supplier_review_db  supplier_review_user < dump_dev_20190710.sql
 Mot de passe pour l'utilisateur supplier_revie_user :
@@ -202,6 +204,6 @@ C --> D
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTQyNzgyOTIsLTc1NTA3MjQ0NywyMT
-EzODQzNTc0XX0=
+eyJoaXN0b3J5IjpbMTIxMjcwNjczNiwtNzU1MDcyNDQ3LDIxMT
+M4NDM1NzRdfQ==
 -->
