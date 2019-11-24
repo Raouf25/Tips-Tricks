@@ -27,7 +27,7 @@ postgres=# \q
 How can I connect to remote Database  jdbc:postgresql://dgopaabsupa01.int.xyz.com:5432/supplier_review
 	
  ```shell
-$	psql -h dgopaabsupa01.int.xyz.com -p 5432 -u supplier_review
+$ psql -h dgopaabsupa01.int.xyz.com -p 5432 -u supplier_review
  ```
 
  ## To drop a database 
@@ -204,6 +204,6 @@ C --> D
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMjcwNjczNiwtNzU1MDcyNDQ3LDIxMT
-M4NDM1NzRdfQ==
+eyJoaXN0b3J5IjpbMTQ2NzgwMDUzMCwxMjEyNzA2NzM2LC03NT
+UwNzI0NDcsMjExMzg0MzU3NF19
 -->
