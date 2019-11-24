@@ -5,7 +5,7 @@ Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about St
 
 # Database
 
-## To Connect to Database 
+## To connect to Database 
 To connect to database from terminal : 
 
 ```shell 
@@ -23,7 +23,7 @@ postgres=# \l
 postgres=# \q
 ```
 
-## How for remote Database 
+## But.., how for remote Database ?
 How can I connect to remote Database  jdbc:postgresql://dgopaabsupa01.int.xyz.com:5432/supplier_review
 	
  ```shell
@@ -200,5 +200,5 @@ C --> D
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc3OTUwODExLDIxMTM4NDM1NzRdfQ==
+eyJoaXN0b3J5IjpbLTc1NTA3MjQ0NywyMTEzODQzNTc0XX0=
 -->
