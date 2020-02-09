@@ -105,7 +105,7 @@ see [How do I delete a Git branch locally and remotely?](https://stackoverflow.c
 remove image
 
 
-========================= Redis ====================
+# Redis
 unboca à lopo => bonne chance  
  redis-cli flushdb
  ======================== GIT ===================
@@ -113,7 +113,9 @@ unboca à lopo => bonne chance
 git merge develop --allow-unrelated-histories  
 git remote -v  
 git push --set-upstream origin feature/client
-======================== Maven ===================
+======================== Maven =======
+
+============
 mvn release:perform -Darguments="-Dmaven.javadoc.skip=true"
 ========================= maven ================  
 mvn install -Dmaven.test.skip=true -Pjpa2ddl
@@ -253,6 +255,7 @@ C --> D
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzcxMDYxODg1LDE0Njc4MDA1MzAsMTIxMj
-cwNjczNiwtNzU1MDcyNDQ3LDIxMTM4NDM1NzRdfQ==
+eyJoaXN0b3J5IjpbNDA2OTA5OTE5LDc3MTA2MTg4NSwxNDY3OD
+AwNTMwLDEyMTI3MDY3MzYsLTc1NTA3MjQ0NywyMTEzODQzNTc0
+XX0=
 -->
