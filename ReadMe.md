@@ -108,17 +108,23 @@ remove image
 # Redis
 unboca à lopo => bonne chance  
  redis-cli flushdb
+
  ======================== GIT ===================
  git push origin --delete feature/kafka-avro-rebasegit commit --amend --no-edit  
 git merge develop --allow-unrelated-histories  
 git remote -v  
 git push --set-upstream origin feature/client
-======================== Maven =======
 
-============
-mvn release:perform -Darguments="-Dmaven.javadoc.skip=true"
-========================= maven ================  
-mvn install -Dmaven.test.skip=true -Pjpa2ddl
+
+#Maven
+
+```shell
+ $ mvn release:perform -Darguments="-Dmaven.javadoc.skip=true"
+ ```
+ 
+```shell
+ $ mvn install -Dmaven.test.skip=true -Pjpa2ddl
+```
 ## Create files and folders
 
 The file explorer is accessible using the button in left corner of the navigation bar. You can create a new file by clicking the **New file** button in the file explorer. You can also create folders by clicking the **New folder** button.
@@ -255,7 +261,7 @@ C --> D
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA2OTA5OTE5LDc3MTA2MTg4NSwxNDY3OD
-AwNTMwLDEyMTI3MDY3MzYsLTc1NTA3MjQ0NywyMTEzODQzNTc0
-XX0=
+eyJoaXN0b3J5IjpbLTIxMDQxNTQ5NTUsNzcxMDYxODg1LDE0Nj
+c4MDA1MzAsMTIxMjcwNjczNiwtNzU1MDcyNDQ3LDIxMTM4NDM1
+NzRdfQ==
 -->
