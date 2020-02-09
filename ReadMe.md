@@ -69,19 +69,28 @@ see [How do I delete a Git branch locally and remotely?](https://stackoverflow.c
 
 
 
-==================== Docker ===================
-docker build -t image_name .  
+# Docker 
+```shell
+ $docker build -t image_name .  
+ ```
 -t => image name  
 . => current directorydocker run -p 80:80 image_name  
 -p => portdocker ps   
 => show containers listdocker image ls   
 => show images listdocker-compose updocker stop   
 => stop containerdocker rmi image  
-remove image========================= Redis ====================unboca à lopo => bonne chance  
- redis-cli flushdb======================== GIT ===================git push origin --delete feature/kafka-avro-rebasegit commit --amend --no-edit  
+remove image
+========================= Redis ====================
+unboca à lopo => bonne chance  
+ redis-cli flushdb
+ ======================== GIT ===================
+ git push origin --delete feature/kafka-avro-rebasegit commit --amend --no-edit  
 git merge develop --allow-unrelated-histories  
 git remote -v  
-git push --set-upstream origin feature/client======================== Maven ===================mvn release:perform -Darguments="-Dmaven.javadoc.skip=true"========================= maven ================  
+git push --set-upstream origin feature/client
+======================== Maven ===================
+mvn release:perform -Darguments="-Dmaven.javadoc.skip=true"
+========================= maven ================  
 mvn install -Dmaven.test.skip=true -Pjpa2ddl
 ## Create files and folders
 
@@ -219,6 +228,6 @@ C --> D
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyNzEwNzMzNywxNDY3ODAwNTMwLDEyMT
+eyJoaXN0b3J5IjpbLTYyMDczMzQ0NSwxNDY3ODAwNTMwLDEyMT
 I3MDY3MzYsLTc1NTA3MjQ0NywyMTEzODQzNTc0XX0=
 -->
