@@ -81,19 +81,30 @@ see [How do I delete a Git branch locally and remotely?](https://stackoverflow.c
   ```
 -p => port
 
-docker ps   
+```shell
+ $ docker ps   
+   ```
 => show containers list
 
-docker image ls   
+```shell
+ $ docker image ls   
+   ```
 => show images list
 
-docker-compose up
-
-docker stop   
+```shell
+ $ docker-compose up
+  ```
+```shell
+ $ docker stop   
+   ```
 => stop container
 
-docker rmi image  
+```shell
+ $ docker rmi image  
+   ```
 remove image
+
+
 ========================= Redis ====================
 unboca à lopo => bonne chance  
  redis-cli flushdb
@@ -242,6 +253,6 @@ C --> D
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1Mjk4NzY1OSwxNDY3ODAwNTMwLDEyMT
-I3MDY3MzYsLTc1NTA3MjQ0NywyMTEzODQzNTc0XX0=
+eyJoaXN0b3J5IjpbNzcxMDYxODg1LDE0Njc4MDA1MzAsMTIxMj
+cwNjczNiwtNzU1MDcyNDQ3LDIxMTM4NDM1NzRdfQ==
 -->
