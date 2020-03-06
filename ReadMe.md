@@ -64,6 +64,8 @@ If you want to ignore a file that you've committed in the past, you'll need to d
  Using the --cached option with git rm means that the file will be deleted from your repository, but will remain in your working directory as an ignored file.
 You can omit the --cached option if you want to delete the file from both the repository and your local file system.
 
+see [.gitignore
+git add git commit git diff git stash .gitignore ](https://www.atlassian.com/git/tutorials/saving-changes/gitignore)
 ## How can I delete remote branch 
 ```shell
 $ git push origin --delete feature/updateDAC
