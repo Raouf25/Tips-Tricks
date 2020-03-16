@@ -130,6 +130,10 @@ git push --set-upstream origin feature/client
 ```shell
  $ mvn install -Dmaven.test.skip=true -Pjpa2ddl
 ```
+
+# Developing and deploying Spring Boot microservices on Kubernetes
+link : https://learnk8s.io/spring-boot-kubernetes-guide
+
 ## Create files and folders
 
 The file explorer is accessible using the button in left corner of the navigation bar. You can create a new file by clicking the **New file** button in the file explorer. You can also create folders by clicking the **New folder** button.
