@@ -2,6 +2,17 @@
 
 Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the **file explorer** on the left corner of the navigation bar.
 
+# Script
+
+### How can I kill whatever process is using port 8080 ?
+
+Use the following command:
+```shell 
+lsof -n -i4TCP:8080 | awk '{print$2}' | tail -1 | xargs kill -9
+```
+
+The process id of port 8080 will be picked and killed forcefully using kill -9.
+
 
 # Database
 
