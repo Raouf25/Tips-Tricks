@@ -2,6 +2,12 @@
 
 Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the **file explorer** on the left corner of the navigation bar.
 
+# Table of Contents
+1. [Script](https://github.com/Raouf25/Tips-Tricks/edit/master/ReadMe.md#Script)
+2. [Database](https://github.com/Raouf25/Tips-Tricks/edit/master/ReadMe.md#Database)
+3. [Git](https://github.com/Raouf25/Tips-Tricks/edit/master/ReadMe.md#Git)
+4. [Fourth Example](#fourth-examplehttpwwwfourthexamplecom)
+
 # Script
 
 ### How can I kill whatever process is using port 8080 ?
@@ -83,6 +89,14 @@ $ git push origin --delete feature/updateDAC
 ```
 see [How do I delete a Git branch locally and remotely?](https://stackoverflow.com/a/10999165)
 
+
+## git tag 
+```shell
+git tag 0.1.10-RC87 && git push -f origin 0.1.10-RC87 
+
+alias tag='function _tag(){ git tag $1; git push -f origin $1 ; echo "Tag: $1 is created and pushed"; };_tag'
+tag 0.1.10-RC87 
+```
 
 
 # Docker 
