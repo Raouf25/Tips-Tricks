@@ -3,9 +3,9 @@
 Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the **file explorer** on the left corner of the navigation bar.
 
 # Table of Contents
-1. [Script](https://github.com/Raouf25/Tips-Tricks/ReadMe.md#Script)
-2. [Database](https://github.com/Raouf25/Tips-Tricks/ReadMe.md#Database)
-3. [Git](https://github.com/Raouf25/Tips-Tricks/ReadMe.md#Git)
+1. [Script](https://github.com/Raouf25/Tips-Tricks#Script)
+2. [Database](https://github.com/Raouf25/Tips-Tricks#Database)
+3. [Git](https://github.com/Raouf25/Tips-Tricks#Git)
 4. [Fourth Example](#fourth-examplehttpwwwfourthexamplecom)
 
 # Script
