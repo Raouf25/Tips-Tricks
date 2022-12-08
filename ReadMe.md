@@ -98,6 +98,8 @@ alias tag='function _tag(){ git tag $1; git push -f origin $1 ; echo "Tag: $1 is
 tag 0.1.10-RC87 
 ```
 
+## git avoid git push --set-upstream
+https://pawelgrzybek.com/auto-setup-remote-branch-and-never-again-see-an-error-about-the-missing-upstream/
 
 # Docker 
 ```shell
