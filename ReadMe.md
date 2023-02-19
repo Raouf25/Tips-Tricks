@@ -12,12 +12,14 @@ Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about St
 
 ### How can I kill whatever process is using port 8080 ?
 
-Use the following command:
+Open your mac terminal, and copy this command:
 ```shell 
-lsof -n -i4TCP:8080 | awk '{print$2}' | tail -1 | xargs kill -9
+kill $(lsof -t -i:8080)
 ```
+lsof -t returns the PID of port 8080 and passes that to kill.
 
-The process id of port 8080 will be picked and killed forcefully using kill -9.
+
+
 
 
 # Database
